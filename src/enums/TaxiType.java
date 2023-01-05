@@ -8,8 +8,8 @@ public enum TaxiType {
     BUSINESS(80,300);
 
     private BigDecimal pricePerKm;
-    
-   private BigDecimal priceForLanding;
+
+    private BigDecimal priceForLanding;
 
     TaxiType(BigDecimal pricePerKm, BigDecimal priceForLanding) {
         this.pricePerKm = pricePerKm;
