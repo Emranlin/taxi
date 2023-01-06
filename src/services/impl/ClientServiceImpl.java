@@ -131,4 +131,8 @@ public class ClientServiceImpl implements ClientService {
         }
 
     }
+
+    public void test(){
+        System.out.println("test ");
+    }
 }
